@@ -1,4 +1,4 @@
-import styles from './Vaga.module.css'
+import * as S from './Vaga.module'
 
 type Props = {
   titulo: string
@@ -11,7 +11,7 @@ type Props = {
 }
 
 const Vaga = (props: Props) => (
-  <li className={styles.vaga}>
+  <S.Vaga className={styles.vaga}>
     <h3 className={styles.vagaTitulo}>{props.titulo}</h3>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
@@ -25,7 +25,7 @@ const Vaga = (props: Props) => (
     <a className={styles.vagaLink} href="#">
       Ver detalhes e candidatar-se
     </a>
-  </li>
+  </S.Vaga>
 )
 
 export default Vaga
