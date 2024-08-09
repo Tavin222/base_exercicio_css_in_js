@@ -22,9 +22,7 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <S.VagaLink>
-      Ver detalhes e candidatar-se
-    </S.VagaLink>
+    <S.VagaLink>Ver detalhes e candidatar-se</S.VagaLink>
   </S.Vaga>
 )
 

@@ -21,9 +21,7 @@ const FormVagas = ({ aoPesquisar }: Props) => {
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
-      <S.Botao type="submit">
-        Pesquisar
-      </S.Botao>
+      <S.Botao type="submit">Pesquisar</S.Botao>
     </S.Form>
   )
 }
