@@ -8,13 +8,24 @@ padding: 16px;
 transition: all ease .3s;
 border-radius: 8px;
 
-.vagaTitulo {
-  font-weight: bold;
-  margin-bottom: 16px;
+:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
 }
 
-.vagaLink {
-  border-color: var(--cor-secundaria);
+:hover a {
+  border-color: var(--cor-principal);
+  background-color: var(--cor-secundaria);
+  color: var(--cor-principal);
+}
+`
+export const VagaTitulo = styled.h3`
+  font-weight: bold;
+  margin-bottom: 16px;
+`
+
+export const VagaLink = styled.h3`
+    border-color: var(--cor-secundaria);
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
     display: inline-block;
@@ -29,16 +40,4 @@ border-radius: 8px;
     @media (max-width: 768px) {
       display: block;
     }
-}
-
-:hover {
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-}
-
-:hover a {
-  border-color: var(--cor-principal);
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
-}
 `

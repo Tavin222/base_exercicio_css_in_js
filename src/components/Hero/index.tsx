@@ -1,12 +1,12 @@
-import * as S from './Hero.module'
+import * as S from './styles'
 
 const Hero = () => (
   <S.Form>
-    <div className="container">
-      <h2 className={styles.heroTitle}>
+    <S.Div>
+      <S.H2>
         As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
-    </div>
+      </S.H2>
+    </S.Div>
   </S.Form>
 )
 

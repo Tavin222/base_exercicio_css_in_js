@@ -7,3 +7,5 @@ color: var(--cor-principal);
 text-align: center;
 padding: 24px 0;
 `
+
+export const H1 = styled.h1``

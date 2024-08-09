@@ -1,8 +1,8 @@
-import * as S from './Cabecalho.module'
+import * as S from './styles'
 
 const Cabecalho = () => (
   <S.Header>
-    <h1>EBAC Jobs</h1>
+    <S.H1>EBAC Jobs</S.H1>
   </S.Header>
 )
 

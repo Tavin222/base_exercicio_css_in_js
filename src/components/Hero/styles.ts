@@ -10,15 +10,6 @@ export const Form = styled.form`
   display: flex;
   align-items: center;
 
-  div {
-  position: relative;
-  color: #eee;
-}
-
-.heroTitle {
-  font-family: Gloock, serif;
-  font-size: 48px;
-}
 
 ::before {
   position: absolute;
@@ -30,4 +21,13 @@ export const Form = styled.form`
   content: '';
   opacity: 0.7;
 }
+`
+
+export const Div = styled.div`
+    position: relative;
+    color: #eee;
+`
+export const H2 = styled.h2`
+  font-family: Gloock, serif;
+  font-size: 48px;
 `
